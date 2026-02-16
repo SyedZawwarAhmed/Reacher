@@ -1,0 +1,51 @@
+# Reacher Configuration
+# Copy this file to config.yaml and fill in your credentials.
+
+# --- Your Profile ---
+profile:
+  name: "Syed Zawwar Ahmed"
+  email: "zawwar.ahmed12@gmail.com"
+  phone: "+923072731349"
+  location: "Karachi, Pakistan"
+  resume_pdf: "resume.pdf"  # Path to your PDF resume (attached to emails)
+
+# --- Job Search Preferences ---
+search:
+  keywords:
+    - "full stack developer"
+    - "software engineer"
+    - "react developer"
+    - "node.js developer"
+    - "frontend engineer"
+    - "backend engineer"
+    - "python developer"
+    - "react native developer"
+  locations:
+    - "remote"
+  experience_level: "mid"  # junior, mid, senior
+
+# --- Gmail SMTP Settings ---
+email:
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  address: "zawwar.ahmed12@gmail.com"
+  app_password: "YOUR_GMAIL_APP_PASSWORD"  # Generate at myaccount.google.com > Security > App Passwords
+  sender_name: "Syed Zawwar Ahmed"
+
+# --- Google Gemini LLM ---
+gemini:
+  api_key: "YOUR_GEMINI_API_KEY"  # Get from aistudio.google.com
+  model: "gemini-2.0-flash"
+
+# --- X / Twitter API ---
+twitter:
+  bearer_token: "YOUR_TWITTER_BEARER_TOKEN"  # Get from developer.twitter.com
+
+# --- Scheduling ---
+schedule:
+  interval_hours: 6  # How often to run when in scheduled mode
+
+# --- Limits ---
+limits:
+  max_applications_per_run: 10
+  max_applications_per_day: 30
